@@ -3,7 +3,7 @@ package rover;
 import java.util.Scanner;
 
 /**
- * Class for figuring for calculating a rover's position from a series of comands.
+ * Class for calculating a rover's position from a series of commands.
  */
 public class RoverCalculator {
 
@@ -14,7 +14,7 @@ public class RoverCalculator {
 
     /**
      * Constructs a rover with a default position off the grid because
-     * it will get its position from the scanner's input.
+     * it will get its position from the scanner's source.
      * @param sc where the rover is reading from.
      */
     public RoverCalculator(Scanner sc){
@@ -34,7 +34,7 @@ public class RoverCalculator {
 
     /**
      * Stops performing calculations and returns when the scanner encounters an empty line.
-     * @return The rover's coordinates based upon Scanner input of Driver class.
+     * @return The rover's coordinates based upon Scanner source of this class.
      */
     public String getRoverCoordinates(){
         String output = "";
