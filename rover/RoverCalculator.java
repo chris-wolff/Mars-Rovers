@@ -28,8 +28,8 @@ public class RoverCalculator {
      * @param args
      */
     public static void main(String[] args) {
-        RoverCalculator id = new RoverCalculator(new Scanner(System.in));
-        System.out.println(id.getRoverCoordinates());
+        RoverCalculator rc = new RoverCalculator(new Scanner(System.in));
+        System.out.println(rc.getRoverCoordinates());
     }
 
     /**
